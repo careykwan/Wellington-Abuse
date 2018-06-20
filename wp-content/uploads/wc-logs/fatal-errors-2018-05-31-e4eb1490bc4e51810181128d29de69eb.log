@@ -1,0 +1,25 @@
+2018-05-31T21:09:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /var/www/html/summative/wp-content/themes/nope-theme/wp-custom-post.php on line 92 and at least 2 expected in /var/www/html/summative/wp-includes/plugin.php:398
+Stack trace:
+#0 /var/www/html/summative/wp-content/themes/nope-theme/wp-custom-post.php(92): add_action('admin_menu')
+#1 /var/www/html/summative/wp-content/themes/nope-theme/functions.php(93): require_once('/var/www/html/s...')
+#2 /var/www/html/summative/wp-settings.php(426): include('/var/www/html/s...')
+#3 /var/www/html/summative/wp-config.php(89): require_once('/var/www/html/s...')
+#4 /var/www/html/summative/wp-load.php(37): require_once('/var/www/html/s...')
+#5 /var/www/html/summative/wp-admin/admin.php(31): require_once('/var/www/html/s...')
+#6 /var/www/html/summative/wp-admin/edit.php(10): require_once('/var/www/html/s...')
+#7 {main}
+  thrown
+
+2018-05-31T21:30:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _x(), 1 passed in /var/www/html/summative/wp-content/themes/nope-theme/functions.php on line 97 and at least 2 expected in /var/www/html/summative/wp-includes/l10n.php:294
+Stack trace:
+#0 /var/www/html/summative/wp-content/themes/nope-theme/functions.php(97): _x('Movies')
+#1 /var/www/html/summative/wp-includes/class-wp-hook.php(286): custom_post_type('')
+#2 /var/www/html/summative/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/summative/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/html/summative/wp-settings.php(450): do_action('init')
+#5 /var/www/html/summative/wp-config.php(89): require_once('/var/www/html/s...')
+#6 /var/www/html/summative/wp-load.php(37): require_once('/var/www/html/s...')
+#7 /var/www/html/summative/wp-admin/admin-ajax.php(22): require_once('/var/www/html/s...')
+#8 {main}
+  thrown
+

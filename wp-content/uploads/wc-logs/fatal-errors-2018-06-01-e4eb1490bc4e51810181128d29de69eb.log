@@ -1,0 +1,72 @@
+2018-06-01T01:30:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-06-01T01:31:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-06-01T01:31:45+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-06-01T01:32:14+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-06-01T01:32:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-06-01T01:32:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-06-01T01:32:45+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-06-01T01:32:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-06-01T05:42:30+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_sql() in /var/www/html/summative/wp-content/themes/nope-theme/page-contact.php:45
+Stack trace:
+#0 /var/www/html/summative/wp-includes/template-loader.php(74): include()
+#1 /var/www/html/summative/wp-blog-header.php(19): require_once('/var/www/html/s...')
+#2 /var/www/html/summative/index.php(17): require('/var/www/html/s...')
+#3 {main}
+  thrown
+
+2018-06-01T05:43:28+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_attr() in /var/www/html/summative/wp-content/themes/nope-theme/page-contact.php:45
+Stack trace:
+#0 /var/www/html/summative/wp-includes/template-loader.php(74): include()
+#1 /var/www/html/summative/wp-blog-header.php(19): require_once('/var/www/html/s...')
+#2 /var/www/html/summative/index.php(17): require('/var/www/html/s...')
+#3 {main}
+  thrown
+
+2018-06-01T05:43:33+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_attr() in /var/www/html/summative/wp-content/themes/nope-theme/page-contact.php:45
+Stack trace:
+#0 /var/www/html/summative/wp-includes/template-loader.php(74): include()
+#1 /var/www/html/summative/wp-blog-header.php(19): require_once('/var/www/html/s...')
+#2 /var/www/html/summative/index.php(17): require('/var/www/html/s...')
+#3 {main}
+  thrown
+
+2018-06-01T05:44:16+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_attr() in /var/www/html/summative/wp-content/themes/nope-theme/page-contact.php:45
+Stack trace:
+#0 /var/www/html/summative/wp-includes/template-loader.php(74): include()
+#1 /var/www/html/summative/wp-blog-header.php(19): require_once('/var/www/html/s...')
+#2 /var/www/html/summative/index.php(17): require('/var/www/html/s...')
+#3 {main}
+  thrown
+
+2018-06-01T05:44:22+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_attr() in /var/www/html/summative/wp-content/themes/nope-theme/page-contact.php:45
+Stack trace:
+#0 /var/www/html/summative/wp-includes/template-loader.php(74): include()
+#1 /var/www/html/summative/wp-blog-header.php(19): require_once('/var/www/html/s...')
+#2 /var/www/html/summative/index.php(17): require('/var/www/html/s...')
+#3 {main}
+  thrown
+
+2018-06-01T05:44:46+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_attr() in /var/www/html/summative/wp-content/themes/nope-theme/page-contact.php:45
+Stack trace:
+#0 /var/www/html/summative/wp-includes/template-loader.php(74): include()
+#1 /var/www/html/summative/wp-blog-header.php(19): require_once('/var/www/html/s...')
+#2 /var/www/html/summative/index.php(17): require('/var/www/html/s...')
+#3 {main}
+  thrown
+
+2018-06-01T05:44:49+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_attr() in /var/www/html/summative/wp-content/themes/nope-theme/page-contact.php:45
+Stack trace:
+#0 /var/www/html/summative/wp-includes/template-loader.php(74): include()
+#1 /var/www/html/summative/wp-blog-header.php(19): require_once('/var/www/html/s...')
+#2 /var/www/html/summative/index.php(17): require('/var/www/html/s...')
+#3 {main}
+  thrown
+
